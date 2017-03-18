@@ -22,11 +22,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t73-dQ-cnm">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t73-dQ-cnm">
                                 <rect key="frame" x="16" y="28" width="343" height="60"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="fs1-3W-nB8"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="첫째 페이지로">
                                     <color key="titleColor" red="0.1146294726348342" green="0.82187095207253891" blue="0.15189012410380351" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -35,8 +33,9 @@
                                     <segue destination="8jR-dP-5y6" kind="showDetail" identifier="goFirstPage" id="rZ1-Jg-FUp"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HeI-lG-Nfu">
-                                <rect key="frame" x="16" y="96" width="343" height="63"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HeI-lG-Nfu">
+                                <rect key="frame" x="16" y="160" width="343" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="둘째 페이지로">
                                     <color key="titleColor" red="1" green="0.22239890852413935" blue="0.17484893716827166" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -47,15 +46,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="t73-dQ-cnm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="1Pc-5w-U2A"/>
-                            <constraint firstItem="t73-dQ-cnm" firstAttribute="leading" secondItem="HeI-lG-Nfu" secondAttribute="leading" id="5pi-mN-iWJ"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="HeI-lG-Nfu" secondAttribute="bottom" constant="508" id="6ft-WK-QlG"/>
-                            <constraint firstItem="t73-dQ-cnm" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="TuM-61-Y5x"/>
-                            <constraint firstItem="HeI-lG-Nfu" firstAttribute="top" secondItem="t73-dQ-cnm" secondAttribute="bottom" constant="8" symbolic="YES" id="fHq-ZU-nzm"/>
-                            <constraint firstItem="t73-dQ-cnm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="kA8-RX-8Ln"/>
-                            <constraint firstItem="t73-dQ-cnm" firstAttribute="trailing" secondItem="HeI-lG-Nfu" secondAttribute="trailing" id="s3C-IN-g7k"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -77,18 +67,28 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="첫째 페이지입니다." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TEd-tr-NVT">
                                 <rect key="frame" x="16" y="28" width="343" height="52"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="52" id="tUJ-ZV-xnF"/>
+                                    <constraint firstAttribute="height" constant="52" id="8HY-jZ-aoQ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZpV-lG-u9a">
+                                <rect key="frame" x="310" y="617" width="52" height="30"/>
+                                <state key="normal" title="돌아가기"/>
+                                <connections>
+                                    <action selector="goBack:" destination="8jR-dP-5y6" eventType="touchUpInside" id="c6X-7Q-icx"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="goBack" id="Wib-If-hcR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="TEd-tr-NVT" firstAttribute="trailing" secondItem="F1t-H1-KMj" secondAttribute="trailingMargin" id="S92-II-BJ0"/>
-                            <constraint firstItem="TEd-tr-NVT" firstAttribute="leading" secondItem="F1t-H1-KMj" secondAttribute="leadingMargin" id="q0Y-RD-J7p"/>
-                            <constraint firstItem="TEd-tr-NVT" firstAttribute="top" secondItem="bLq-J9-gaV" secondAttribute="bottom" constant="8" symbolic="YES" id="v2o-hG-yCr"/>
+                            <constraint firstItem="TEd-tr-NVT" firstAttribute="leading" secondItem="F1t-H1-KMj" secondAttribute="leadingMargin" id="6uD-XR-aWq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZpV-lG-u9a" secondAttribute="trailing" constant="-3" id="AGG-xe-ORB"/>
+                            <constraint firstItem="TEd-tr-NVT" firstAttribute="top" secondItem="bLq-J9-gaV" secondAttribute="bottom" constant="8" symbolic="YES" id="aoh-gq-W9Y"/>
+                            <constraint firstAttribute="bottom" secondItem="ZpV-lG-u9a" secondAttribute="bottom" constant="20" symbolic="YES" id="b93-dL-MpN"/>
+                            <constraint firstItem="TEd-tr-NVT" firstAttribute="trailing" secondItem="F1t-H1-KMj" secondAttribute="trailingMargin" id="pIP-n9-Ool"/>
                         </constraints>
                     </view>
                     <connections>
@@ -114,32 +114,31 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="둘째 페이지입니다." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="56i-z6-zqu">
                                 <rect key="frame" x="16" y="28" width="343" height="52"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="52" id="OKE-lc-77W"/>
+                                    <constraint firstAttribute="height" constant="52" id="blO-3Z-xNW"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="성공적으로 이동하였습니다." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A3f-if-7n5">
-                                <rect key="frame" x="16" y="88" width="343" height="58"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FMI-C4-1XC">
+                                <rect key="frame" x="307" y="617" width="52" height="30"/>
+                                <state key="normal" title="돌아가기"/>
+                                <connections>
+                                    <action selector="goBack:" destination="7yR-Vn-KLs" eventType="touchUpInside" id="tcw-6Z-q3X"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="goBack" id="c0z-IS-Z4s"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="56i-z6-zqu" firstAttribute="leading" secondItem="A3f-if-7n5" secondAttribute="leading" id="0Hs-ZX-kHU"/>
-                            <constraint firstItem="56i-z6-zqu" firstAttribute="leading" secondItem="OLS-W7-sYH" secondAttribute="leadingMargin" id="5z0-Bh-e6z"/>
-                            <constraint firstItem="L0l-YU-aRG" firstAttribute="top" secondItem="A3f-if-7n5" secondAttribute="bottom" constant="521" id="Bw7-Gd-YGA"/>
-                            <constraint firstItem="56i-z6-zqu" firstAttribute="top" secondItem="fnZ-ZK-b3a" secondAttribute="bottom" constant="8" symbolic="YES" id="IX7-QQ-xXx"/>
-                            <constraint firstItem="56i-z6-zqu" firstAttribute="trailing" secondItem="A3f-if-7n5" secondAttribute="trailing" id="cgD-el-boH"/>
-                            <constraint firstItem="A3f-if-7n5" firstAttribute="top" secondItem="56i-z6-zqu" secondAttribute="bottom" constant="8" symbolic="YES" id="hnC-Ca-IAZ"/>
-                            <constraint firstItem="56i-z6-zqu" firstAttribute="trailing" secondItem="OLS-W7-sYH" secondAttribute="trailingMargin" id="wx4-Yh-GkA"/>
+                            <constraint firstItem="56i-z6-zqu" firstAttribute="trailing" secondItem="FMI-C4-1XC" secondAttribute="trailing" id="37A-Yq-wsm"/>
+                            <constraint firstItem="56i-z6-zqu" firstAttribute="leading" secondItem="OLS-W7-sYH" secondAttribute="leadingMargin" id="DKH-Mc-fcZ"/>
+                            <constraint firstItem="56i-z6-zqu" firstAttribute="top" secondItem="fnZ-ZK-b3a" secondAttribute="bottom" constant="8" symbolic="YES" id="fbZ-Kl-S3k"/>
+                            <constraint firstAttribute="bottom" secondItem="FMI-C4-1XC" secondAttribute="bottom" constant="20" symbolic="YES" id="oXO-hT-uG5"/>
+                            <constraint firstItem="56i-z6-zqu" firstAttribute="trailing" secondItem="OLS-W7-sYH" secondAttribute="trailingMargin" id="r5n-tI-yys"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="contentLabel" destination="A3f-if-7n5" id="M91-0A-dZg"/>
                         <outlet property="titleLabel" destination="56i-z6-zqu" id="3O8-sd-JZq"/>
                     </connections>
                 </viewController>
@@ -148,4 +147,7 @@
             <point key="canvasLocation" x="427" y="729"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Wib-If-hcR"/>
+    </inferredMetricsTieBreakers>
 </document>

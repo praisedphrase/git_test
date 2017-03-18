@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     }
     
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -28,11 +29,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        
-        let param = segue.destination as! DetailViewControllerFirst
-        
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goBack" {
+            let goBackToFirstPlace:ViewController = segue.destination as! ViewController
+        }
     }
-
 }
 
