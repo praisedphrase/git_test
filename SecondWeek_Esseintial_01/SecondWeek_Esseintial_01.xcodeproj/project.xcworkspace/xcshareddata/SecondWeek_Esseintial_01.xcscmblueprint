@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "671A4155162EF9FC51C67E8A453236A3ABDA7512",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D1C60938BBB152D3EC5D4ABB9E54BA7B34AAAF1A" : 9223372036854775807,
+    "671A4155162EF9FC51C67E8A453236A3ABDA7512" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0A44653E-BF51-4B15-9003-98148292A370",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D1C60938BBB152D3EC5D4ABB9E54BA7B34AAAF1A" : "",
+    "671A4155162EF9FC51C67E8A453236A3ABDA7512" : "git_test\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SecondWeek_Esseintial_01",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SecondWeek_Esseintial_01\/SecondWeek_Esseintial_01.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/praisedphrase\/git_test.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "671A4155162EF9FC51C67E8A453236A3ABDA7512"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/praisedphrase\/coding-for-ios-developer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D1C60938BBB152D3EC5D4ABB9E54BA7B34AAAF1A"
+    }
+  ]
+}
