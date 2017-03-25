@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		032D43261E86A35C009A106A /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032D43251E86A35C009A106A /* CollectionViewController.swift */; };
 		03E1C2271E858F7C00FC3852 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E1C2261E858F7C00FC3852 /* AppDelegate.swift */; };
 		03E1C2291E858F7C00FC3852 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E1C2281E858F7C00FC3852 /* ViewController.swift */; };
 		03E1C22C1E858F7C00FC3852 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E1C22A1E858F7C00FC3852 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		032D43251E86A35C009A106A /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		03E1C2231E858F7C00FC3852 /* 3rdWeek_essential_01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3rdWeek_essential_01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E1C2261E858F7C00FC3852 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03E1C2281E858F7C00FC3852 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				03E1C2321E858F7C00FC3852 /* Info.plist */,
 				03E1C23B1E85965C00FC3852 /* FilterViewController.swift */,
 				03E1C2481E85994B00FC3852 /* FilterCollectionViewCell.swift */,
+				032D43251E86A35C009A106A /* CollectionViewController.swift */,
 			);
 			path = 3rdWeek_essential_01;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				03E1C2291E858F7C00FC3852 /* ViewController.swift in Sources */,
 				03E1C2271E858F7C00FC3852 /* AppDelegate.swift in Sources */,
 				03E1C2461E8598A800FC3852 /* SHCollectionViewCell.swift in Sources */,
+				032D43261E86A35C009A106A /* CollectionViewController.swift in Sources */,
 				03E1C2491E85994B00FC3852 /* FilterCollectionViewCell.swift in Sources */,
 				03E1C2471E8598A800FC3852 /* SHViewController.swift in Sources */,
 			);
@@ -333,6 +337,7 @@
 				03E1C2371E858F7C00FC3852 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
