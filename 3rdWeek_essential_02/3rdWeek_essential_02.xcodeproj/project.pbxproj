@@ -10,6 +10,12 @@
 		032D43281E86B67B009A106A /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032D43271E86B67B009A106A /* CollectionViewController.swift */; };
 		032D432A1E86B6F8009A106A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032D43291E86B6F8009A106A /* DetailViewController.swift */; };
 		032D432C1E86B70C009A106A /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032D432B1E86B70C009A106A /* CollectionViewCell.swift */; };
+		032D43321E86D345009A106A /* jl1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 032D432D1E86D345009A106A /* jl1.jpg */; };
+		032D43331E86D345009A106A /* jl2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 032D432E1E86D345009A106A /* jl2.jpg */; };
+		032D43341E86D345009A106A /* jl3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 032D432F1E86D345009A106A /* jl3.jpg */; };
+		032D43351E86D345009A106A /* jl4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 032D43301E86D345009A106A /* jl4.jpg */; };
+		032D43361E86D345009A106A /* jl5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 032D43311E86D345009A106A /* jl5.jpg */; };
+		035A2A0C1E87903B00866505 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035A2A0B1E87903B00866505 /* ContentViewController.swift */; };
 		03AE41A71E850D1900D611FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE41A61E850D1900D611FE /* AppDelegate.swift */; };
 		03AE41A91E850D1900D611FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE41A81E850D1900D611FE /* ViewController.swift */; };
 		03AE41AC1E850D1900D611FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AE41AA1E850D1900D611FE /* Main.storyboard */; };
@@ -21,6 +27,12 @@
 		032D43271E86B67B009A106A /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		032D43291E86B6F8009A106A /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		032D432B1E86B70C009A106A /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		032D432D1E86D345009A106A /* jl1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jl1.jpg; sourceTree = "<group>"; };
+		032D432E1E86D345009A106A /* jl2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jl2.jpg; sourceTree = "<group>"; };
+		032D432F1E86D345009A106A /* jl3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jl3.jpg; sourceTree = "<group>"; };
+		032D43301E86D345009A106A /* jl4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jl4.jpg; sourceTree = "<group>"; };
+		032D43311E86D345009A106A /* jl5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jl5.jpg; sourceTree = "<group>"; };
+		035A2A0B1E87903B00866505 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		03AE41A31E850D1900D611FE /* 3rdWeek_essential_02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3rdWeek_essential_02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03AE41A61E850D1900D611FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03AE41A81E850D1900D611FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +72,11 @@
 		03AE41A51E850D1900D611FE /* 3rdWeek_essential_02 */ = {
 			isa = PBXGroup;
 			children = (
+				032D432D1E86D345009A106A /* jl1.jpg */,
+				032D432E1E86D345009A106A /* jl2.jpg */,
+				032D432F1E86D345009A106A /* jl3.jpg */,
+				032D43301E86D345009A106A /* jl4.jpg */,
+				032D43311E86D345009A106A /* jl5.jpg */,
 				03AE41A61E850D1900D611FE /* AppDelegate.swift */,
 				03AE41A81E850D1900D611FE /* ViewController.swift */,
 				03AE41AA1E850D1900D611FE /* Main.storyboard */,
@@ -69,6 +86,7 @@
 				032D43271E86B67B009A106A /* CollectionViewController.swift */,
 				032D43291E86B6F8009A106A /* DetailViewController.swift */,
 				032D432B1E86B70C009A106A /* CollectionViewCell.swift */,
+				035A2A0B1E87903B00866505 /* ContentViewController.swift */,
 			);
 			path = 3rdWeek_essential_02;
 			sourceTree = "<group>";
@@ -132,7 +150,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				032D43351E86D345009A106A /* jl4.jpg in Resources */,
+				032D43361E86D345009A106A /* jl5.jpg in Resources */,
 				03AE41B11E850D1900D611FE /* LaunchScreen.storyboard in Resources */,
+				032D43331E86D345009A106A /* jl2.jpg in Resources */,
+				032D43321E86D345009A106A /* jl1.jpg in Resources */,
+				032D43341E86D345009A106A /* jl3.jpg in Resources */,
 				03AE41AE1E850D1900D611FE /* Assets.xcassets in Resources */,
 				03AE41AC1E850D1900D611FE /* Main.storyboard in Resources */,
 			);
@@ -149,6 +172,7 @@
 				032D43281E86B67B009A106A /* CollectionViewController.swift in Sources */,
 				03AE41A91E850D1900D611FE /* ViewController.swift in Sources */,
 				03AE41A71E850D1900D611FE /* AppDelegate.swift in Sources */,
+				035A2A0C1E87903B00866505 /* ContentViewController.swift in Sources */,
 				032D432A1E86B6F8009A106A /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

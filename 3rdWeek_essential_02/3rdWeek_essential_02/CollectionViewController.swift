@@ -12,6 +12,14 @@ private let reuseIdentifier = "Cell"
 
 class CollectionViewController: UICollectionViewController {
 
+//    var photoMemo: [photoMemo] = [
+//    photoMemo(title:"jl1", image:UIImage(named: "jl1.jpg")!),
+//    photoMemo(title:"jl2", image:UIImage(named: "jl2.jpg")!),
+//    photoMemo(title:"jl3", image:UIImage(named: "jl3.jpg")!),
+//    photoMemo(title:"jl4", image:UIImage(named: "jl4.jpg")!),
+//    photoMemo(title:"jl5", image:UIImage(named: "jl5.jpg")!),
+//    ]
+    
     
     
     override func viewDidLoad() {
